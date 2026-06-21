@@ -1,0 +1,30 @@
+name: SolarPanel
+version: ''
+
+main: org.test.solarPanel.SolarPanel
+api-version: ''
+load: POSTWORLD
+
+commands:
+  fly:
+    description:
+      ᴀᴛᴛɪᴠᴀ ɪʟ ᴠᴏʟᴏ (ꜱᴏʟᴏ ᴘᴇʀ ꜱᴛᴀꜰꜰ)
+    usage:
+      /<command>
+    aliases:
+      - f
+    permission: solarpanel.fly
+
+  gmc:
+    description:
+      ᴀᴛᴛɪᴠᴀ ᴄʀᴇᴀᴛɪᴠᴀ (ꜱᴏʟᴏ ᴘᴇʀ ꜱᴛᴀꜰꜰ)
+    usage:
+      /<command>
+    permission: solarpanel.gmc
+
+  gms:
+    description:
+      ᴀᴛᴛɪᴠᴀ ꜱᴜʀᴠɪᴠᴀʟ (ꜱᴏʟᴏ ᴘᴇʀ ꜱᴛᴀꜰꜰ)
+    usage:
+      /<command>
+    permission: solarpanel.gms
