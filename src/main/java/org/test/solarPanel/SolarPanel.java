@@ -7,13 +7,15 @@ import org.test.solarPanel.solarcommands.GMSCommand;
 
 public final class SolarPanel extends JavaPlugin {
 
+
     @Override
     public void onEnable() {
         // String prefix = "§e§lꜱᴏʟᴀʀᴘᴀɴᴇʟ §8»§r ";
-        getCommand("Fly").setExecutor(new FlyCommand());
+        getCommand("Fly").setExecutor(new FlyCommand(this));
         getCommand("gmc").setExecutor(new GMCCommand());
         getCommand("gms").setExecutor(new GMSCommand());
 
-
+        getConfig().options().copyDefaults();
+        saveDefaultConfig();
     }
 }

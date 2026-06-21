@@ -1,0 +1,12 @@
+prefix: '§e§lꜱᴏʟᴀʀᴘᴀɴᴇʟ §8»§r '
+no-permission: '§cᴄᴏᴍᴀɴᴅᴏ ɴᴏɴ ᴇꜱᴇɢᴜɪʙɪʟᴇ'
+
+
+# ---------------- FLY ----------------
+fly-on-message: '&eᴠᴏʟᴏ ᴀᴛᴛɪᴠᴀᴛᴏ'
+fly-off-message: '&cᴠᴏʟᴏ ᴅɪꜱᴀᴛᴛɪᴠᴀᴛᴏ'
+fly-on-message-player: '&cʜᴀɪ ᴅɪꜱᴀᴛᴛɪᴠᴀᴛᴏ ʟᴀ ꜰʟʏ ᴀ %player%'
+fly-off-message-player: '&aʜᴀɪ ᴀᴛᴛɪᴠᴀᴛᴏ ʟᴀ ꜰʟʏ ᴀ %player%'
+# ---------------- FLY ----------------
+
+
