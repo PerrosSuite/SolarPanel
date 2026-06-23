@@ -1,6 +1,7 @@
 package org.test.solarPanel.solarcommands;
 
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -23,38 +24,42 @@ public class FlyCommand implements CommandExecutor {
 
         if(sender instanceof Player){
             Player player = (Player) sender;
+            Player target = Bukkit.getPlayer(args[0]);
             if(args.length == 0) {
+                if(target == null){
+                    player.sendMessage(ChatColor.translateAlternateColorCodes('&',prefix + plugin.getConfig().getString("no-permission")));
+                    return true;
+                }
                 if (player.hasPermission("solarpanel.fly")) {
                     if (PinVolo.contains(player)) {
                         player.setAllowFlight(false);
-                        player.sendActionBar(plugin.getConfig().getString("fly-off-message"));
+                        player.sendActionBar(ChatColor.translateAlternateColorCodes('&',plugin.getConfig().getString("fly-off-message")));
                         PinVolo.remove(player);
                     } else if (!PinVolo.contains(player)) {
                         PinVolo.add(player);
                         player.setAllowFlight(true);
-                        player.sendActionBar(plugin.getConfig().getString("fly-on-message"));
+                        player.sendActionBar(ChatColor.translateAlternateColorCodes('&',plugin.getConfig().getString("fly-on-message")));
                     }
                 } else{
-                    player.sendMessage(plugin.getConfig().getString(prefix + "no-permission"));
+                    player.sendMessage(ChatColor.translateAlternateColorCodes('&',prefix + plugin.getConfig().getString( "no-permission")));
                 }
             } else if(args.length == 1){
-                Player target = Bukkit.getPlayer(args[0]);
                 if (target.hasPermission("solarpanel.fly")) {
 
                     if (PinVolo.contains(target)) {
                         target.setAllowFlight(false);
-                        player.sendMessage(prefix + plugin.getConfig().getString("fly-off-message-player").replace("%player%", target.getName()));
-                        target.sendActionBar(plugin.getConfig().getString("fly-off-message"));
+                        player.sendMessage(ChatColor.translateAlternateColorCodes('&', prefix + plugin.getConfig().getString("fly-off-message-player").replace("%player%", target.getName())));
+                        target.sendActionBar(ChatColor.translateAlternateColorCodes('&',plugin.getConfig().getString( "fly-off-message")));
                         PinVolo.remove(target);
                     } else if (!PinVolo.contains(target)) {
                         PinVolo.add(target);
                         target.setAllowFlight(true);
-                        player.sendMessage(prefix + plugin.getConfig().getString("fly-on-message-player").replace("%player%", target.getName()));;
-                        target.sendActionBar(plugin.getConfig().getString("fly-on-message"));
+                        player.sendMessage(ChatColor.translateAlternateColorCodes('&', prefix + plugin.getConfig().getString("fly-on-message-player").replace("%player%", target.getName())));
+                        target.sendActionBar(ChatColor.translateAlternateColorCodes('&', plugin.getConfig().getString("fly-on-message")));
 
                     }
                 } else{
-                    player.sendMessage(plugin.getConfig().getString(prefix + "no-permission"));
+                    player.sendMessage(ChatColor.translateAlternateColorCodes('&',plugin.getConfig().getString(prefix + "no-permission")));
                 }
             }
         }

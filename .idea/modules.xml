@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SolarPanel.iml" filepath="$PROJECT_DIR$/SolarPanel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SolarPanel.iml" filepath="$PROJECT_DIR$/.idea/SolarPanel.iml" />
     </modules>
   </component>
 </project>

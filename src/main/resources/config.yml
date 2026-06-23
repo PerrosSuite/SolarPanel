@@ -1,12 +1,30 @@
-prefix: '§e§lꜱᴏʟᴀʀᴘᴀɴᴇʟ §8»§r '
 no-permission: '§cᴄᴏᴍᴀɴᴅᴏ ɴᴏɴ ᴇꜱᴇɢᴜɪʙɪʟᴇ'
 
-
 # ---------------- FLY ----------------
-fly-on-message: '&eᴠᴏʟᴏ ᴀᴛᴛɪᴠᴀᴛᴏ'
+fly-on-message: '&aᴠᴏʟᴏ ᴀᴛᴛɪᴠᴀᴛᴏ'
 fly-off-message: '&cᴠᴏʟᴏ ᴅɪꜱᴀᴛᴛɪᴠᴀᴛᴏ'
-fly-on-message-player: '&cʜᴀɪ ᴅɪꜱᴀᴛᴛɪᴠᴀᴛᴏ ʟᴀ ꜰʟʏ ᴀ %player%'
-fly-off-message-player: '&aʜᴀɪ ᴀᴛᴛɪᴠᴀᴛᴏ ʟᴀ ꜰʟʏ ᴀ %player%'
+fly-on-message-player: '&cʜᴀɪ ᴅɪꜱᴀᴛᴛɪᴠᴀᴛᴏ ʟᴀ ꜰʟʏ ᴀ §l%player%'
+fly-off-message-player: '&aʜᴀɪ ᴀᴛᴛɪᴠᴀᴛᴏ ʟᴀ ꜰʟʏ ᴀ §l%player%'
 # ---------------- FLY ----------------
 
+# ---------------- GMC ----------------
+gmc-off-message: '§cᴄʀᴇᴀᴛɪᴠᴀ ᴅɪꜱᴀᴛᴛɪᴠᴀᴛᴀ'
+gmc-on-message: '§aᴄʀᴇᴀᴛɪᴠᴀ ᴀᴛᴛɪᴠᴀᴛᴀ'
+gmc-off-message-player: '§cᴄʀᴇᴀᴛɪᴠᴀ ᴅɪꜱᴀᴛᴛɪᴠᴀᴛᴀ ᴀ §l%player%'
+gmc-on-message-player: '§aᴄʀᴇᴀᴛɪᴠᴀ ᴀᴛᴛɪᴠᴀᴛᴀ ᴀ §l%player%'
+# ---------------- GMC ----------------
 
+# ---------------- GMS ----------------
+already-gms: '§cɢɪᴀ ɪɴ ꜱᴜʀᴠɪᴠᴀʟ'
+gms-on-message: '§aꜱᴜʀᴠɪᴠᴀʟ ᴀᴛᴛɪᴠᴀᴛᴀ'
+player-already-gms: '§cɪʟ ɢɪᴏᴄᴀᴛᴏʀᴇ ᴇ ɢɪᴀ ɪɴ ꜱᴜʀᴠɪᴠᴀʟ'
+gms-on-message-player: '§aꜱᴜʀᴠɪᴠᴀʟ ᴀᴛᴛɪᴠᴀᴛᴀ ᴀ §l%player%'
+# ---------------- GMS ----------------
+
+# ---------------- TP ----------------
+teleported-to-player: '§aᴛᴇʟᴇᴛʀᴀꜱᴘᴏʀᴛᴀᴛᴏ ᴀ §l%player%'
+someone-teleported: '§a§l%player%§a ꜱɪ ᴇ ᴛᴇʟᴇᴛʀᴀꜱᴘᴏʀᴛᴀᴛᴏ ᴅᴀ ᴛᴇ.'
+cant-teleport-to-you: '§cɴᴏɴ ᴘᴜᴏɪ ᴛᴇʟᴇᴛʀᴀꜱᴘᴏʀᴛᴀʀᴛɪ ᴀ ᴛᴇ ꜱᴛᴇꜱꜱᴏ.'
+target-offline: '§cɪʟ ɢɪᴏᴄᴀᴛᴏʀᴇ ɴᴏɴ ᴇ ᴏɴʟɪɴᴇ.'
+target-not-found: '§cɢɪᴏᴄᴀᴛᴏʀᴇ ɴᴏɴ ᴛʀᴏᴠᴀᴛᴏ.'
+# ---------------- TP ----------------

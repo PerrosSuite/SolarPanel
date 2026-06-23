@@ -28,3 +28,6 @@ commands:
     usage:
       /<command>
     permission: solarpanel.gms
+  tp:
+    description:
+      ᴜᴛɪʟɪᴢᴢᴀ ɪʟ ᴛᴇʟᴇᴛʀᴀꜱᴘᴏʀᴛᴏ (ꜱᴏʟᴏ ᴘᴇʀ ꜱᴛᴀꜰꜰ)
