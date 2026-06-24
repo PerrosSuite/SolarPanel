@@ -1,4 +1,4 @@
-# SolarPanel
+# ☀️ | SolarPanel
 
 Un plugin leggero per una vanilla tra amici. (Perfetta per la 2-Week Phase)
 
@@ -22,7 +22,7 @@ Un plugin leggero per una vanilla tra amici. (Perfetta per la 2-Week Phase)
 
 ---
 
-## 🤝 Contribuire
+## Come contribuire
 
 Se riscontri problemi contattami su telegram: @itsmepandy
 
