@@ -19,9 +19,9 @@ public class GMSCommand implements CommandExecutor {
     String prefix = "§e§lꜱᴏʟᴀʀᴘᴀɴᴇʟ §8»§r ";
 
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String @NotNull [] args) {
+
         if (sender instanceof Player) {
             Player player = (Player) sender;
-            Player target = Bukkit.getPlayer(args[0]);
             if(args.length == 0) {
                 if (player.hasPermission("solarpanel.gms")) {
                     if (player.getGameMode() != GameMode.SURVIVAL) {
@@ -35,6 +35,7 @@ public class GMSCommand implements CommandExecutor {
                 }
 
             } else if (args.length == 1) {
+                Player target = Bukkit.getPlayer(args[0]);
                 if(target == null){
                     player.sendMessage(ChatColor.translateAlternateColorCodes('&',prefix + plugin.getConfig().getString("no-permission")));
                     return true;

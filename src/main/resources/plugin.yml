@@ -2,7 +2,7 @@ name: SolarPanel
 version: ''
 
 main: org.test.solarPanel.SolarPanel
-api-version: ''
+api-version: '1.13'
 load: POSTWORLD
 
 commands:
@@ -31,3 +31,9 @@ commands:
   tp:
     description:
       ᴜᴛɪʟɪᴢᴢᴀ ɪʟ ᴛᴇʟᴇᴛʀᴀꜱᴘᴏʀᴛᴏ (ꜱᴏʟᴏ ᴘᴇʀ ꜱᴛᴀꜰꜰ)
+  pannello:
+    description:
+      apri la gui
+    aliases:
+      - p
+      - panel

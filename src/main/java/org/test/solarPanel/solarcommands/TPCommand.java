@@ -64,4 +64,20 @@ public class TPCommand implements CommandExecutor {
         }
         return false;
     }
+    public void TPPubblico (Player player, Player target){
+        String prefix = "§e§lꜱᴏʟᴀʀᴘᴀɴᴇʟ §8»§r ";
+        if (target == player) {
+                player.sendMessage(ChatColor.translateAlternateColorCodes('&', prefix + plugin.getConfig().getString("cant-teleport-to-you")));
+                return;
+            }
+
+            if (!target.isOnline()) {
+                player.sendMessage(ChatColor.translateAlternateColorCodes('&', prefix + plugin.getConfig().getString("target-offline")));
+                return;
+            }
+
+            player.teleport(target.getLocation());
+            player.sendActionBar(ChatColor.translateAlternateColorCodes('&', plugin.getConfig().getString("teleported-to-player").replace("%player%", target.getName())));
+            target.sendMessage(ChatColor.translateAlternateColorCodes('&', prefix + plugin.getConfig().getString("someone-teleported").replace("%player%", player.getName())));
+    }
 }
