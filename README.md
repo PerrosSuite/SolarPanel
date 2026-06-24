@@ -18,6 +18,7 @@ Un plugin leggero per una vanilla tra amici. (Perfetta per la 2-Week Phase)
 | `/gmc` | Imposta la tua modalità di gioco in **Creativa** | `solarpanel.gmc` |
 | `/fly` | Attiva o disattiva il **Volo** | `solarpanel.fly` |
 | `/tp` | **Teletrasporto** tra giocatori | `solarpanel.tp` |
+| `/panel` | Apre il **pannello** | `Accessibile a tutti (Freeze e GMS sono solo per staff)` |
 
 ---
 
