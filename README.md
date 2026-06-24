@@ -26,5 +26,5 @@ Un plugin leggero per una vanilla tra amici. (Perfetta per la 2-Week Phase)
 
 Se riscontri problemi contattami su telegram: @itsmepandy
 
-### Da fare: Aggiungere una G.U.I. semplice e interattiva.
+### Da fare: Sistemare la Freeze G.U.I. e implementare nuove feature ad essa
 *Coming Soon...*
