@@ -1,6 +1,6 @@
 # SolarPanel
 
-Un plugin leggero per una vanilla
+Un plugin leggero per una vanilla tra amici. (Perfetta per la 2-Week Phase)
 
 ## Installazione
 
@@ -17,9 +17,13 @@ Un plugin leggero per una vanilla
 | `/gms` | Imposta la tua modalità di gioco in **Survival** | `solarpanel.gms` |
 | `/gmc` | Imposta la tua modalità di gioco in **Creativa** | `solarpanel.gmc` |
 | `/fly` | Attiva o disattiva il **Volo** | `solarpanel.fly` |
+| `/tp` | **Teletrasporto** tra giocatori | `solarpanel.tp` |
 
 ---
 
 ## 🤝 Contribuire
 
 Se riscontri problemi contattami su telegram: @itsmepandy
+
+### Da fare: Aggiungere una G.U.I. semplice e interattiva.
+*Coming Soon...*
